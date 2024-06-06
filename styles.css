@@ -16,7 +16,7 @@ body {
   margin: -10em auto 0 auto;
 }
 
-/* ============================================== Candle
+/* ============================================== Candle 1
 */
 
 .velas {
@@ -49,6 +49,142 @@ body {
   top: 45%;
   left: 0;
 }
+
+/* ============================================== Candle 2
+*/
+
+.velas1 {
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 52%;
+    margin-left: -2.4px;
+    margin-top: -8.33333333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+  }
+  .velas1:after,
+  .velas1:before {
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222222px;
+  }
+  .velas1:after {
+    top: 25%;
+    left: 0;
+  }
+  .velas1:before {
+    top: 45%;
+    left: 0;
+  }
+
+  /* ============================================== Candle 3
+*/
+
+.velas3 {
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 54%;
+    margin-left: -2.4px;
+    margin-top: -8.33333333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+  }
+  .velas3:after,
+  .velas3:before {
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222222px;
+  }
+  .velas3:after {
+    top: 25%;
+    left: 0;
+  }
+  .velas3:before {
+    top: 45%;
+    left: 0;
+  }
+  
+/* ============================================== Candle 4
+*/
+
+.velas4 {
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 48%;
+    margin-left: -2.4px;
+    margin-top: -8.33333333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+  }
+  .velas4:after,
+  .velas4:before {
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222222px;
+  }
+  .velas4:after {
+    top: 25%;
+    left: 0;
+  }
+  .velas4:before {
+    top: 45%;
+    left: 0;
+  }
+
+/* ============================================== Candle 3
+*/
+
+.velas5 {
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 46%;
+    margin-left: -2.4px;
+    margin-top: -8.33333333px;
+    width: 5px;
+    height: 35px;
+    transform: translateY(-300px);
+    backface-visibility: hidden;
+    animation: in 500ms 6s ease-out forwards;
+  }
+  .velas5:after,
+  .velas5:before {
+    background: rgba(255, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.22222222px;
+  }
+  .velas5:after {
+    top: 25%;
+    left: 0;
+  }
+  .velas5:before {
+    top: 45%;
+    left: 0;
+  }
 
 /* ============================================== Fire
 */
